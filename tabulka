@@ -1,0 +1,14 @@
+CREATE TABLE formular (
+id_uz serial PRIMARY KEY,
+email VARCHAR (50) NOT NULL,
+vek INT NOT NULL,
+vyska FLOAT NOT NULL,
+vaha FLOAT NOT NULL,
+adresa VARCHAR (100) NOT NULL,
+mesto VARCHAR (100) NOT NULL,
+stat VARCHAR (100) NOT NULL,
+psc VARCHAR (10) NOT NULL,
+pohlavi VARCHAR (10) NOT NULL
+);
+
+SELECT * FROM formular;
